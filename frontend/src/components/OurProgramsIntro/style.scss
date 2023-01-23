@@ -1,0 +1,25 @@
+.programsIntro {
+    width: 70%;
+    transform: translateX(30%);
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 3rem;
+        color: #000;
+        margin-bottom: 1.8rem;
+        font-weight: 900;
+    }
+
+    p {
+        line-height: 1.7;
+        color: gray;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+}
