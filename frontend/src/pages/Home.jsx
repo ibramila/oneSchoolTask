@@ -14,7 +14,6 @@ import Why from '../components/WhyChooseYou/Why'
 function Home() {
   return (
     <>
-      <HeroSection />
       <Courses />
       <OurProgramsIntro />
       <ProgramsPart1 />
