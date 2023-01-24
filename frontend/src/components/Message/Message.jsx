@@ -124,9 +124,7 @@ function Message() {
                         ) : (
                             <></>
                         )}
-
                         <textarea value={state.comment} name="" id="" cols="30" rows="10" placeholder='Write your message here.'></textarea>
-
                         <button>Send Message</button>
                     </form>
                 </div>

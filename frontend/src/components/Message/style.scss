@@ -1,5 +1,6 @@
 .message {
     padding: 80px 0;
+    background-color: #f8f9fa;
 
     .wrapper_message {
         display: flex;
@@ -10,7 +11,7 @@
             width: 60%;
             display: flex;
             flex-direction: column;
-            gap:20px;
+            gap: 20px;
 
             h1 {
                 font-size: 3rem;
@@ -42,9 +43,10 @@
                 background-clip: padding-box;
                 border: 1px solid #ced4da;
             }
-            button{
+
+            button {
                 width: 40%;
-                padding: 15px 30px ;
+                padding: 15px 30px;
                 background-color: #4f45e3;
                 border-color: #4539e2;
                 border: 1px solid #4539e2;
