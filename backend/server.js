@@ -10,7 +10,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-
 const { Schema } = mongoose;
 const userScheme = new Schema(
     {
@@ -18,11 +17,19 @@ const userScheme = new Schema(
             type: String,
             required: true
         },
-        job: {
+        surname: {
             type: String,
             required: true
         },
-        comment: {
+        subject: {
+            type: String,
+            required: true
+        },
+        email: {
+            type: String,
+            required: true
+        },
+        message: {
             type: String,
             required: true
         }

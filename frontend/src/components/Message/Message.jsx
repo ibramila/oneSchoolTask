@@ -36,7 +36,13 @@ function Message() {
 
 
     const handleChange = (e) => {
-        setState({ ...state, [e.target.name]: e.target.value, [e.target.surname]: e.target.value, [e.target.email]: e.target.value, [e.target.comment]: e.target.value });
+        setState({
+            ...state, [e.target.name]: e.target.value,
+            [e.target.surname]: e.target.value,
+            [e.target.email]: e.target.value,
+            [e.target.subject]: e.target.value,
+            [e.target.comment]: e.target.value
+        });
 
     };
 
@@ -119,7 +125,7 @@ function Message() {
                             <></>
                         )}
 
-                        <textarea name="" id="" cols="30" rows="10" placeholder='Write your message here.'></textarea>
+                        <textarea value={state.comment} name="" id="" cols="30" rows="10" placeholder='Write your message here.'></textarea>
 
                         <button>Send Message</button>
                     </form>
