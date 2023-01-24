@@ -1,0 +1,47 @@
+.why_section {
+    padding: 90px 0 0;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    .why {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+
+        .feedback_of_school {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            height: 30%;
+            padding: 30px 20px;
+            border-radius: 15px;
+            border: 1px solid lightgray;
+
+            .sections {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                align-items: center;
+
+                span {
+                    line-height: 1.7;
+                    color: gray;
+                    font-weight: 300;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+}

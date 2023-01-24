@@ -10,6 +10,9 @@
     height: 100vh;
 
     .hero {
+        // left: 50%;
+        top: 50%;
+        transform: translateY(30%);
         display: flex;
         flex-direction: row;
         gap: 100px;

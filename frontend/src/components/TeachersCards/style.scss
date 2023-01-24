@@ -1,0 +1,56 @@
+.teachers {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 0 100px;
+
+    .teacher {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 80px 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &_image {
+            top: -80px;
+            position: absolute;
+            left: 100px;
+
+            img {
+                border-radius: 50%;
+                height: auto;
+                width: 60%;
+            }
+        }
+
+        &_info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+
+            h3 {
+                font-weight: 500;
+                line-height: 1.2;
+            }
+
+            span {
+                color: #adb5bd;
+            }
+
+            p {
+                text-align: center;
+                line-height: 1.7;
+                color: gray;
+                font-weight: 300;
+                font-size: 1.1rem;
+                ;
+            }
+        }
+    }
+}
